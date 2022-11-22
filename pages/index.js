@@ -25,7 +25,7 @@ const Home = () => {
 				</div>
 				<div className="section">
 					<label className="text-xl font-semibold">NHÀ CẤP 4</label>
-					<div className="grid  md:grid-cols-2 xl:grid-col-3 2xl:grid-cols-5 my-4 gap-y-10 gap-x-5">
+					<div className="grid  md:grid-cols-2 xl:grid-col-3 2xl:grid-cols-4 my-4 gap-y-7 gap-x-5">
 						<CardProduct
 							title={'[House Level Four] Home design 1 10x10 1 floor area 90m2'}
 							price={3000}
@@ -74,35 +74,13 @@ const Home = () => {
 							description={'description description'}
 							image={CARD_DEFAULT}
 						/>
-						<CardProduct
-							title={'[House Level Four] Home design 1 10x10 1 floor area 90m2'}
-							price={3000}
-							description={'description description'}
-							image={CARD_DEFAULT}
-						/>
-						<CardProduct
-							title={'[House Level Four] Home design 1 10x10 1 floor area 90m2'}
-							price={3000}
-							description={'description description'}
-							image={CARD_DEFAULT}
-						/>
+						
 					</div>
 				</div>
 				<div className="section">
 					<label className="text-xl font-semibold">NHÀ CẤP 4</label>
-					<div className="grid  md:grid-cols-2 xl:grid-col-3 2xl:grid-cols-5 my-4 gap-y-10 gap-x-5">
-						<CardProduct
-							title={'[House Level Four] Home design 1 10x10 1 floor area 90m2'}
-							price={3000}
-							description={'description description'}
-							image={CARD_DEFAULT}
-						/>
-						<CardProduct
-							title={'[House Level Four] Home design 1 10x10 1 floor area 90m2'}
-							price={3000}
-							description={'description description'}
-							image={CARD_DEFAULT}
-						/>
+					<div className="grid  md:grid-cols-2 xl:grid-col-3 2xl:grid-cols-4 my-4 gap-y-7 gap-x-5">
+						
 						<CardProduct
 							title={'[House Level Four] Home design 1 10x10 1 floor area 90m2'}
 							price={3000}

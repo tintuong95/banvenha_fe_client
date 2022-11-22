@@ -1,4 +1,9 @@
 @import url("./tailwind.css");
+@import url('https://fonts.googleapis.com/css2?family=Questrial&display=swap');
+body {
+font-family: 'Questrial', sans-serif;
+ 
+}
 .swiper-pagination-bullet-active {
     background-color: aliceblue !important;
 }
