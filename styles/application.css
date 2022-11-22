@@ -1,0 +1,13 @@
+@import url("./tailwind.css");
+.swiper-pagination-bullet-active {
+    background-color: aliceblue !important;
+}
+
+.swiper-pagination {
+    opacity: 0 !important;
+}
+
+.swiper:hover .swiper-pagination {
+    opacity: 1 !important;
+    transition: all 0.5s !important;
+}
