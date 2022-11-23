@@ -7,7 +7,7 @@ import CardSlider from '../Slider';
 const CardProduct = ({title,description,image,price}) => {
     return (
 			<div>
-				<div className=" border  border-green-300  overflow-hidden  shadow-xl p-3  ">
+				<div className=" border  border-gray-200 bg-white rounded overflow-hidden  shadow-xl p-3  ">
 					<CardSlider>
 						<BaseImage height={100} width={300} src={image} name={title} />
 						<BaseImage height={100} width={300} src={image} name={title} />
