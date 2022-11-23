@@ -1,18 +1,41 @@
-@import url("./tailwind.css");
-@import url('https://fonts.googleapis.com/css2?family=Questrial&display=swap');
-body {
-font-family: 'Questrial', sans-serif;
- 
-}
-.swiper-pagination-bullet-active {
-    background-color: aliceblue !important;
-}
-
-.swiper-pagination {
-    opacity: 0 !important;
-}
-
-.swiper:hover .swiper-pagination {
-    opacity: 1 !important;
-    transition: all 0.5s !important;
-}
+    @import url("./tailwind.css");
+    @import url("./components/index.css");
+    @import url('https://fonts.googleapis.com/css2?family=Questrial&display=swap');
+    body {
+        font-family: 'Questrial', sans-serif;
+    }
+    
+    .swiper-pagination-bullet-active {
+        background-color: aliceblue !important;
+    }
+    
+    .swiper-pagination {
+        opacity: 0 !important;
+    }
+    
+    .swiper:hover .swiper-pagination {
+        opacity: 1 !important;
+        transition: all 0.5s !important;
+    }
+    
+    .bg-home {
+        background-image: url("../assets//image/bg.png");
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        z-index: -1;
+        position: relative;
+    }
+    
+    .bg-home-overlay {
+        content: "";
+        background-image: linear-gradient(120deg, #22c55ec4, #33cfff83);
+        opacity: .7;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        z-index: 0;
+    }

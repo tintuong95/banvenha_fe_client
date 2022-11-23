@@ -4,10 +4,10 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import BaseImage from '../Common/Image';
 
-const CardProductSub = ({title, description, image, price}) => {
+const CardProductThird = ({title, description, image, price}) => {
 	return (
 		<div>
-			<div className="border rounded-sm  border-green-300 overflow-hidden grid grid-cols-3 p-2 ">
+			<div className="hover:shadow-xl  rounded-sm shadow-lg border-gray-300 overflow-hidden grid grid-cols-3 p-3 ">
 				<div className="col-span-1 ">
 					<BaseImage height={100} width={100} src={image} name={title} />
 				</div>
@@ -30,7 +30,7 @@ const CardProductSub = ({title, description, image, price}) => {
 };
 
 /**@validate props*/
-CardProductSub.propTypes = {
+CardProductThird.propTypes = {
 	image: PropTypes.element,
 	src: PropTypes.string,
 	price: PropTypes.number,
@@ -38,4 +38,4 @@ CardProductSub.propTypes = {
 	title: PropTypes.string,
 };
 
-export default CardProductSub;
+export default CardProductThird;

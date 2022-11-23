@@ -9,12 +9,12 @@ import CardTable from '../../components/Table/CardTable';
 const ProductDetail = () => {
 	return (
 		<div className="w-4/6 m-auto">
-			<div className="">
-				<Breadcrumb />
-			</div>
 			<div className="grid grid-cols-4 mt-4">
 				<div className="col-span-1 "></div>
 				<div className="col-span-2 ">
+					<div className="mt-10 mb-5">
+						<Breadcrumb />
+					</div>
 					<h1 className="font-bold text-xl">
 						[HOUSE LEVEL FOUR ] Mau nha cap 4 10x20 1 tang 70m2
 					</h1>
@@ -28,9 +28,9 @@ const ProductDetail = () => {
 						ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
 						aliquip ex ea commodo consequat.
 					</div>
-                    <div className='table-information-product my-5'>
-                        <CardTable/>
-                    </div>
+					<div className="table-information-product my-5">
+						<CardTable />
+					</div>
 					<div className="content-product">
 						{`The standard Lorem Ipsum passage, used since the 1500s
 "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."

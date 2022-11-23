@@ -1,0 +1,67 @@
+.btn-animation a {
+    text-decoration: none;
+    text-align: center;
+    position: relative;
+    transition: all .35s;
+}
+
+.btn-animation a span {
+    position: relative;
+    z-index: 2;
+}
+
+.btn-animation a:after {
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    background: #22c55e;
+    transition: all .35s;
+}
+
+.btn-animation a:hover {
+    color: #fff;
+}
+
+.btn-animation a:hover:after {
+    width: 100%;
+}
+
+.btn-animation-reverse a {
+    text-decoration: none;
+    text-align: center;
+    position: relative;
+    transition: all .35s;
+    background-color: #22c55e;
+}
+
+.btn-animation-reverse a span {
+    position: relative;
+    z-index: 2;
+}
+
+.btn-animation-reverse a:after {
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    background: #ffff;
+    transition: all .35s;
+}
+
+.btn-animation-reverse a:hover {
+    color: #22c55e;
+}
+
+.btn-animation-reverse a:hover:after {
+    width: 100%;
+}
+
+.btn-head-hover:hover {
+    color: #06973b;
+    transition: all 0.5s ease;
+}
