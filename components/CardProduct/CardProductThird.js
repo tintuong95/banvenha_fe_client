@@ -7,7 +7,7 @@ import BaseImage from '../Common/Image';
 const CardProductThird = ({title, description, image, price}) => {
 	return (
 		<div>
-			<div className="hover:shadow-xl  rounded-sm shadow-lg border-gray-300 overflow-hidden grid grid-cols-3 p-3 ">
+			<div className="hover:shadow-xl bg-white rounded-sm shadow-lg border-gray-300 overflow-hidden grid grid-cols-3 p-3 ">
 				<div className="col-span-1 ">
 					<BaseImage height={100} width={100} src={image} name={title} />
 				</div>

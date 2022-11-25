@@ -6,8 +6,8 @@ import BaseImage from '../Common/Image';
 
 const CardNewsThird = ({image, title, description, footer}) => {
 	return (
-		<div className="flex flex-col relative ">
-			<div className="border border-green-400">
+		<div className="flex flex-col relative  border rounded-lg">
+			<div className="border ">
 				<BaseImage height={100} width={100} src={image} name={title} />
 				<h3 className="font-semibold m-3 p-1 absolute bottom-0  text-white bg-slate-600">{title}</h3>
 			</div>

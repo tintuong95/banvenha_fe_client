@@ -14,16 +14,99 @@ const Product = () => {
 			<div className="mb-5">
 				<Breadcrumb />
 			</div>
-			<div className="flex justify-end gap-2">
-				<h3>Lua chon :</h3>
-				<button className="bg-slate-400 p-1 px-2 rounded">Best</button>
-				<button className="bg-slate-400 p-1 px-2 rounded">sellers</button>
+			<div className="flex justify-between gap-2 items-center">
+				<div className="">Bộ lọc</div>
+				<div className="flex  gap-3 items-center">
+					<h3>Lua chon :</h3>
+					<button className="border border-black border-dashed p-1 px-2 rounded">
+						Best
+					</button>
+					<button className="border border-black border-dashed p-1 px-2 rounded">
+						sellers
+					</button>
 
-				<button className="bg-slate-400 p-1 px-2 rounded">Newest</button>
-				<button className="bg-slate-400 p-1 px-2 rounded">Best</button>
+					<button className="border border-black border-dashed p-1 px-2 rounded">
+						Newest
+					</button>
+					<button className="border border-black border-dashed p-1 px-2 rounded">
+						Best
+					</button>
+				</div>
 			</div>
-			<div className="section grid grid-cols-5">
-				<div className="col-span-1">
+			<div className="grid grid-cols-5 bg-slate-300 py-5">
+				<div className="col-span-1 flex items-center gap-4 mb-3">
+					<h3
+						for="first_name"
+						className="  text-sm font-medium text-gray-900 dark:text-white">
+						First name
+					</h3>
+					<input
+						type="text"
+						id="first_name"
+						className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded p-1"
+						placeholder="John"
+						required
+					/>
+				</div>
+				<div className="col-span-1 flex items-center gap-4 mb-3">
+					<h3
+						for="first_name"
+						className="  text-sm font-medium text-gray-900 dark:text-white">
+						First name
+					</h3>
+					<input
+						type="text"
+						id="first_name"
+						className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded p-1"
+						placeholder="John"
+						required
+					/>
+				</div>
+				<div className="col-span-1 flex items-center gap-4 mb-3">
+					<h3
+						for="first_name"
+						className="  text-sm font-medium text-gray-900 dark:text-white">
+						First name
+					</h3>
+					<input
+						type="text"
+						id="first_name"
+						className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded p-1"
+						placeholder="John"
+						required
+					/>
+				</div>
+				<div className="col-span-1 flex items-center gap-4 mb-3">
+					<h3
+						for="first_name"
+						className="  text-sm font-medium text-gray-900 dark:text-white">
+						First name
+					</h3>
+					<input
+						type="text"
+						id="first_name"
+						className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded p-1"
+						placeholder="John"
+						required
+					/>
+				</div>
+				<div className="col-span-1 flex items-center gap-4 mb-3">
+					<h3
+						for="first_name"
+						className="  text-sm font-medium text-gray-900 dark:text-white">
+						First name
+					</h3>
+					<input
+						type="text"
+						id="first_name"
+						className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded p-1"
+						placeholder="John"
+						required
+					/>
+				</div>
+			</div>
+			<div className="section ">
+				{/* <div className="col-span-1">
 					<div className="filter p-5 pl-0 pb-0">
 						<h3 className="font-semibold text-slate-700 mb-4">Tìm kiếm </h3>
 						<div className="flex flex-col ">
@@ -108,7 +191,7 @@ const Product = () => {
 							</button>
 						</div>
 					</div>
-				</div>
+				</div> */}
 				<div className="col-span-4">
 					<div className="grid grid-cols-4 my-4 gap-y-10 gap-x-5">
 						<CardProduct
@@ -185,62 +268,36 @@ const Product = () => {
 						/>
 					</div>
 					<div className="flex justify-center">
-						<button>Xem them</button>
+						<button className="w-full border p-4 border-dashed border-green-600 text-green-600">
+							Xem them
+						</button>
 					</div>
-				</div>
-			</div>
-
-			<div>
-				<label className="text-xl   text-gray-700 ">Gợi ý</label>
-				<div className="grid grid-cols-4 gap-5 mt-5 ">
-					<CardProductSub
-						title={'Home design 1 10x10 1 floor area 90m2'}
-						price={3000}
-						description={'description description'}
-						image={card_poster}
-					/>
-					<CardProductSub
-						title={'Home design 1 10x10 1 floor area 90m2'}
-						price={3000}
-						description={'description description'}
-						image={card_poster}
-					/>
-					<CardProductSub
-						title={'Home design 1 10x10 1 floor area 90m2'}
-						price={3000}
-						description={'description description'}
-						image={card_poster}
-					/>
-					<CardProductSub
-						title={'Home design 1 10x10 1 floor area 90m2'}
-						price={3000}
-						description={'description description'}
-						image={card_poster}
-					/>
-					<CardProductSub
-						title={'Home design 1 10x10 1 floor area 90m2'}
-						price={3000}
-						description={'description description'}
-						image={card_poster}
-					/>
-					<CardProductSub
-						title={'Home design 1 10x10 1 floor area 90m2'}
-						price={3000}
-						description={'description description'}
-						image={card_poster}
-					/>
-					<CardProductSub
-						title={'Home design 1 10x10 1 floor area 90m2'}
-						price={3000}
-						description={'description description'}
-						image={card_poster}
-					/>
-					<CardProductSub
-						title={'Home design 1 10x10 1 floor area 90m2'}
-						price={3000}
-						description={'description description'}
-						image={card_poster}
-					/>
+					<div className="grid grid-cols-4 my-4 gap-y-5 gap-x-5 bg-slate-300 p-4">
+						<CardProduct
+							title={'Home design 1 10x10 1 floor area 90m2'}
+							price={3000}
+							description={'description description'}
+							image={card_poster}
+						/>
+						<CardProduct
+							title={'Home design 1 10x10 1 floor area 90m2'}
+							price={3000}
+							description={'description description'}
+							image={card_poster}
+						/>
+						<CardProduct
+							title={'Home design 1 10x10 1 floor area 90m2'}
+							price={3000}
+							description={'description description'}
+							image={card_poster}
+						/>
+						<CardProduct
+							title={'Home design 1 10x10 1 floor area 90m2'}
+							price={3000}
+							description={'description description'}
+							image={card_poster}
+						/>
+					</div>
 				</div>
 			</div>
 		</div>

@@ -1,16 +1,11 @@
 /** @format */
-
 import Link from 'next/link';
 import React from 'react';
-import {ICON_DEFAULT, IMAGE_LOGO} from '../../constant/image';
-import {LOGO_NAME} from '../../constant/title';
-import BaseButton from '../Common/Button';
-import BaseIcon from '../Common/Icon';
-import BaseImage from '../Common/Image';
+
 
 const Header = () => {
 	return (
-		<div className="border-b shadow-lg">
+		<div className="border-b bg-green-600 shadow-lg">
 			<div className="w-4/6 m-auto flex justify-between">
 				<div className="flex items-center">
 					{/* <BaseImage
@@ -20,29 +15,32 @@ const Header = () => {
 						name={LOGO_NAME}
 					/> */}
 					<Link href={'/'}>
-						<h1 className="font-extrabold text-2xl text-green-700">
-							BANVENHA.COM
-						</h1>
+						<h1 className="font-extrabold text-2xl text-white">BANVENHA.COM</h1>
 					</Link>
 				</div>
 				<div className="flex items-center gap-2 my-3">
 					<Link
 						href={'/san-pham'}
-						className="p-1 px-3  btn-head-hover cursor-pointer  ">
+						className="p-1 px-3  btn-head-hover cursor-pointer text-white  ">
 						Sản phẩm
 					</Link>
 					<Link
 						href={'/tin-tuc'}
-						className="p-1 px-3   btn-head-hover cursor-pointer ">
+						className="p-1 px-3   btn-head-hover cursor-pointer text-white">
 						Tin tức
 					</Link>
 
-					<a className="p-1 px-3  btn-head-hover cursor-pointer ">
+					<a className="p-1 px-3  btn-head-hover cursor-pointer text-white">
 						<span>Yêu thích</span>
 					</a>
-					<a className="p-1 px-3  btn-head-hover cursor-pointer"> Liên hệ </a>
-					<a className="p-1 px-3   btn-head-hover cursor-pointer ">Tư vấn </a>
-					<a className="p-1 px-3 cursor-pointer border shadow-inner bg-green-500 hover:bg-green-600 transition-all text-white rounded flex items-center gap-2 ">
+					<a className="p-1 px-3  btn-head-hover cursor-pointer text-white ">
+						{' '}
+						Liên hệ{' '}
+					</a>
+					<a className="p-1 px-3   btn-head-hover cursor-pointer text-white">
+						Tư vấn{' '}
+					</a>
+					<a className="p-1 px-3 cursor-pointer border shadow-inner bg-white hover:bg-green-600 transition-all text-green-800 rounded flex items-center gap-2 ">
 						Đối tác
 						<svg
 							xmlns="http://www.w3.org/2000/svg"
@@ -50,7 +48,7 @@ const Header = () => {
 							height="16"
 							viewBox="0 0 24 24"
 							fill="none"
-							stroke="#ffffff"
+							stroke="#393939"
 							strokeWidth="2"
 							strokeLinecap="round"
 							strokeLinejoin="round">

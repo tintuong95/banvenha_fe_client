@@ -7,7 +7,7 @@ import BaseImage from '../Common/Image';
 const CardProductSub = ({title, description, image, price}) => {
 	return (
 		<div>
-			<div className="border rounded-sm  border-green-300 overflow-hidden grid grid-cols-3 p-2 ">
+			<div className="border  border-gray-300 overflow-hidden grid grid-cols-3 p-2 ">
 				<div className="col-span-1 ">
 					<BaseImage height={100} width={100} src={image} name={title} />
 				</div>

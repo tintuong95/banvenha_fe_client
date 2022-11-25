@@ -7,7 +7,7 @@ import CardSlider from '../Slider';
 const CardProduct = ({title,description,image,price}) => {
     return (
 			<div>
-				<div className=" border  border-gray-200 bg-white rounded overflow-hidden  shadow-xl p-3  ">
+				<div className=" border  bg-white border-gray-800  overflow-hidden    ">
 					<CardSlider>
 						<BaseImage height={100} width={300} src={image} name={title} />
 						<BaseImage height={100} width={300} src={image} name={title} />
@@ -16,34 +16,21 @@ const CardProduct = ({title,description,image,price}) => {
 					</CardSlider>
 					<h1 className="font-semibold text-slate-600 p-2 pb-0">{title}</h1>
 					<small className="text-slate-400 mx-2 text-sm">By KTS.Tu Tin</small>
-					<div className="flex justify-between items-center m-2">
-						<p className="font-semibold text-lg text-green-500">
-							{price.toLocaleString('vi-VN')}
-							<small className="text-sm">VND</small>
-						</p>
-						<div className=" flex gap-1">
-							<button className=" border border-rose-500  p-2 px-3   rounded-sm  ">
-								<svg
-									xmlns="http://www.w3.org/2000/svg"
-									width="16"
-									height="16"
-									viewBox="0 0 24 24"
-									fill="none"
-									stroke="#f43f5e"
-									strokeWidth="2"
-									strokeLinecap="round"
-									strokeLinejoin="round">
-									<path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path>
-								</svg>
-							</button>
-							<button className="btn-animation     ">
+
+					<div className=" flex gap-3 p-3">
+						<button className="  w-1/2  text-slate-900 border border-gray-700  p-1 px-3   rounded-sm  ">
+							10.000 đ
+						</button>
+						<button className=" border w-1/2 border-green-500  bg-green-500 text-white p-1 px-3   rounded-sm  ">
+							Chi tiết
+						</button>
+						{/* <button className="btn-animation w-1/2    ">
 								<a
 									href="#"
-									className="border border-green-500 p-2 px-3 text-green-600">
+									className="border w-full border-green-500 p-2 px-3 text-green-600">
 									<span>Chi tiết</span>
 								</a>
-							</button>
-						</div>
+							</button> */}
 					</div>
 				</div>
 			</div>
