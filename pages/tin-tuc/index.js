@@ -27,215 +27,243 @@ const News = () => {
 				/>
 			</div>
 			<div className="section mb-10 ">
-				<label className="text-xl   text-gray-700">Mới nhất</label>
+				<div className="flex justify-between">
+					<h1 className="text-xl my-2 flex items-center gap-2">
+						<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#321919" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"><path d="M19 21l-7-5-7 5V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z"></path></svg>
+						Nhà cấp 4</h1>
+					<div className="flex gap-2">
+						<button>
+							<svg
+								xmlns="http://www.w3.org/2000/svg"
+								width="23"
+								height="23"
+								viewBox="0 0 24 24"
+								fill="none"
+								stroke="#393939"
+								strokeWidth="2"
+								strokeLinecap="round"
+								strokeLinejoin="round">
+								<path d="M15 18l-6-6 6-6" />
+							</svg>
+						</button>
+						<button>
+							<svg
+								xmlns="http://www.w3.org/2000/svg"
+								width="23"
+								height="23"
+								viewBox="0 0 24 24"
+								fill="none"
+								stroke="#393939"
+								strokeWidth="2"
+								strokeLinecap="round"
+								strokeLinejoin="round">
+								<path d="M9 18l6-6-6-6" />
+							</svg>
+						</button>
+					</div>
+				</div>
 				<div className="grid grid-cols-4 auto-rows-max gap-5 mt-5">
 					<CardNewsSub
-						title={
-							'Title card news Title card news Title card news Title card news Title card news Title card '
-						}
+						title={'Title card news Title card news Title card news  '}
+						description={'Title card news Title card news Title card news Title card news Title card news Title card news  '}
 						image={card_poster}
 					/>
 					<CardNewsSub
-						title={
-							'Title card news Title card news Title card news Title card news Title card news Title card '
-						}
+						title={'Title card news Title card news Title card news  '}
+						description={'Title card news Title card news Title card news Title card news Title card news Title card news  '}
 						image={card_poster}
 					/>
 					<CardNewsSub
-						title={
-							'Title card news Title card news Title card news Title card news Title card news Title card '
-						}
+						title={'Title card news Title card news Title card news  '}
+						description={'Title card news Title card news Title card news Title card news Title card news Title card news  '}
 						image={card_poster}
 					/>
 					<CardNewsSub
-						title={
-							'Title card news Title card news Title card news Title card news Title card news Title card Title card news Title card news Title card news Title card news Title card news Title card '
-						}
+						title={'Title card news Title card news Title card news  '}
+						description={'Title card news Title card news Title card news Title card news Title card news Title card news  '}
 						image={card_poster}
 					/>
 					<CardNewsSub
-						title={
-							'Title card news Title card news Title card news Title card news Title card news Title card '
-						}
+						title={'Title card news Title card news Title card news  '}
+						description={'Title card news Title card news Title card news Title card news Title card news Title card news  '}
 						image={card_poster}
 					/>
 					<CardNewsSub
-						title={
-							'Title card news Title card news Title card news Title card news Title card news Title card '
-						}
+						title={'Title card news Title card news Title card news  '}
+						description={'Title card news Title card news Title card news Title card news Title card news Title card news  '}
 						image={card_poster}
 					/>
 					<CardNewsSub
-						title={
-							'Title card news Title card news Title card news Title card news Title card news Title card '
-						}
+						title={'Title card news Title card news Title card news  '}
+						description={'Title card news Title card news Title card news Title card news Title card news Title card news  '}
 						image={card_poster}
 					/>
 					<CardNewsSub
-						title={
-							'Title card news Title card news Title card news Title card news Title card news Title card Title card news Title card news Title card news Title card news Title card news Title card'
-						}
+						title={'Title card news Title card news Title card news  '}
+						description={'Title card news Title card news Title card news Title card news Title card news Title card news  '}
 						image={card_poster}
 					/>
+					
 				</div>
 			</div>
 			<div className="section mb-10 ">
-				<label className="text-xl   text-gray-700">Mới nhất</label>
+				<div className="flex justify-between">
+					<h1 className="text-xl my-2 flex items-center gap-2">
+						<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#321919" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"><path d="M19 21l-7-5-7 5V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z"></path></svg>
+						Nhà cấp 4</h1>
+					<div className="flex gap-2">
+						<button>
+							<svg
+								xmlns="http://www.w3.org/2000/svg"
+								width="23"
+								height="23"
+								viewBox="0 0 24 24"
+								fill="none"
+								stroke="#393939"
+								strokeWidth="2"
+								strokeLinecap="round"
+								strokeLinejoin="round">
+								<path d="M15 18l-6-6 6-6" />
+							</svg>
+						</button>
+						<button>
+							<svg
+								xmlns="http://www.w3.org/2000/svg"
+								width="23"
+								height="23"
+								viewBox="0 0 24 24"
+								fill="none"
+								stroke="#393939"
+								strokeWidth="2"
+								strokeLinecap="round"
+								strokeLinejoin="round">
+								<path d="M9 18l6-6-6-6" />
+							</svg>
+						</button>
+					</div>
+				</div>
 				<div className="grid grid-cols-4 auto-rows-max gap-5 mt-5">
 					<CardNewsSub
-						title={
-							'Title card news Title card news Title card news Title card news Title card news Title card '
-						}
+						title={'Title card news Title card news Title card news  '}
+						description={'Title card news Title card news Title card news Title card news Title card news Title card news  '}
 						image={card_poster}
 					/>
 					<CardNewsSub
-						title={
-							'Title card news Title card news Title card news Title card news Title card news Title card '
-						}
+						title={'Title card news Title card news Title card news  '}
+						description={'Title card news Title card news Title card news Title card news Title card news Title card news  '}
 						image={card_poster}
 					/>
 					<CardNewsSub
-						title={
-							'Title card news Title card news Title card news Title card news Title card news Title card '
-						}
+						title={'Title card news Title card news Title card news  '}
+						description={'Title card news Title card news Title card news Title card news Title card news Title card news  '}
 						image={card_poster}
 					/>
 					<CardNewsSub
-						title={
-							'Title card news Title card news Title card news Title card news Title card news Title card Title card news Title card news Title card news Title card news Title card news Title card '
-						}
+						title={'Title card news Title card news Title card news  '}
+						description={'Title card news Title card news Title card news Title card news Title card news Title card news  '}
 						image={card_poster}
 					/>
 					<CardNewsSub
-						title={
-							'Title card news Title card news Title card news Title card news Title card news Title card '
-						}
+						title={'Title card news Title card news Title card news  '}
+						description={'Title card news Title card news Title card news Title card news Title card news Title card news  '}
 						image={card_poster}
 					/>
 					<CardNewsSub
-						title={
-							'Title card news Title card news Title card news Title card news Title card news Title card '
-						}
+						title={'Title card news Title card news Title card news  '}
+						description={'Title card news Title card news Title card news Title card news Title card news Title card news  '}
 						image={card_poster}
 					/>
 					<CardNewsSub
-						title={
-							'Title card news Title card news Title card news Title card news Title card news Title card '
-						}
+						title={'Title card news Title card news Title card news  '}
+						description={'Title card news Title card news Title card news Title card news Title card news Title card news  '}
 						image={card_poster}
 					/>
 					<CardNewsSub
-						title={
-							'Title card news Title card news Title card news Title card news Title card news Title card Title card news Title card news Title card news Title card news Title card news Title card'
-						}
+						title={'Title card news Title card news Title card news  '}
+						description={'Title card news Title card news Title card news Title card news Title card news Title card news  '}
 						image={card_poster}
 					/>
+
 				</div>
 			</div>
 			<div className="section mb-10 ">
-				<label className="text-xl   text-gray-700">Mới nhất</label>
-				<div className="grid grid-cols-4 auto-rows-max gap-5 mt-5">
-					<CardNewsSub
-						title={
-							'Title card news Title card news Title card news Title card news Title card news Title card '
-						}
-						image={card_poster}
-					/>
-					<CardNewsSub
-						title={
-							'Title card news Title card news Title card news Title card news Title card news Title card '
-						}
-						image={card_poster}
-					/>
-					<CardNewsSub
-						title={
-							'Title card news Title card news Title card news Title card news Title card news Title card '
-						}
-						image={card_poster}
-					/>
-					<CardNewsSub
-						title={
-							'Title card news Title card news Title card news Title card news Title card news Title card Title card news Title card news Title card news Title card news Title card news Title card '
-						}
-						image={card_poster}
-					/>
-					<CardNewsSub
-						title={
-							'Title card news Title card news Title card news Title card news Title card news Title card '
-						}
-						image={card_poster}
-					/>
-					<CardNewsSub
-						title={
-							'Title card news Title card news Title card news Title card news Title card news Title card '
-						}
-						image={card_poster}
-					/>
-					<CardNewsSub
-						title={
-							'Title card news Title card news Title card news Title card news Title card news Title card '
-						}
-						image={card_poster}
-					/>
-					<CardNewsSub
-						title={
-							'Title card news Title card news Title card news Title card news Title card news Title card Title card news Title card news Title card news Title card news Title card news Title card'
-						}
-						image={card_poster}
-					/>
+				<div className="flex justify-between">
+					<h1 className="text-xl my-2 flex items-center gap-2">
+						<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#321919" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"><path d="M19 21l-7-5-7 5V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z"></path></svg>
+						Nhà cấp 4</h1>
+					<div className="flex gap-2">
+						<button>
+							<svg
+								xmlns="http://www.w3.org/2000/svg"
+								width="23"
+								height="23"
+								viewBox="0 0 24 24"
+								fill="none"
+								stroke="#393939"
+								strokeWidth="2"
+								strokeLinecap="round"
+								strokeLinejoin="round">
+								<path d="M15 18l-6-6 6-6" />
+							</svg>
+						</button>
+						<button>
+							<svg
+								xmlns="http://www.w3.org/2000/svg"
+								width="23"
+								height="23"
+								viewBox="0 0 24 24"
+								fill="none"
+								stroke="#393939"
+								strokeWidth="2"
+								strokeLinecap="round"
+								strokeLinejoin="round">
+								<path d="M9 18l6-6-6-6" />
+							</svg>
+						</button>
+					</div>
 				</div>
-			</div>
-			<div className="section mb-10 ">
-				<label className="text-xl   text-gray-700">Mới nhất</label>
 				<div className="grid grid-cols-4 auto-rows-max gap-5 mt-5">
 					<CardNewsSub
-						title={
-							'Title card news Title card news Title card news Title card news Title card news Title card '
-						}
+						title={'Title card news Title card news Title card news  '}
+						description={'Title card news Title card news Title card news Title card news Title card news Title card news  '}
 						image={card_poster}
 					/>
 					<CardNewsSub
-						title={
-							'Title card news Title card news Title card news Title card news Title card news Title card '
-						}
+						title={'Title card news Title card news Title card news  '}
+						description={'Title card news Title card news Title card news Title card news Title card news Title card news  '}
 						image={card_poster}
 					/>
 					<CardNewsSub
-						title={
-							'Title card news Title card news Title card news Title card news Title card news Title card '
-						}
+						title={'Title card news Title card news Title card news  '}
+						description={'Title card news Title card news Title card news Title card news Title card news Title card news  '}
 						image={card_poster}
 					/>
 					<CardNewsSub
-						title={
-							'Title card news Title card news Title card news Title card news Title card news Title card Title card news Title card news Title card news Title card news Title card news Title card '
-						}
+						title={'Title card news Title card news Title card news  '}
+						description={'Title card news Title card news Title card news Title card news Title card news Title card news  '}
 						image={card_poster}
 					/>
 					<CardNewsSub
-						title={
-							'Title card news Title card news Title card news Title card news Title card news Title card '
-						}
+						title={'Title card news Title card news Title card news  '}
+						description={'Title card news Title card news Title card news Title card news Title card news Title card news  '}
 						image={card_poster}
 					/>
 					<CardNewsSub
-						title={
-							'Title card news Title card news Title card news Title card news Title card news Title card '
-						}
+						title={'Title card news Title card news Title card news  '}
+						description={'Title card news Title card news Title card news Title card news Title card news Title card news  '}
 						image={card_poster}
 					/>
 					<CardNewsSub
-						title={
-							'Title card news Title card news Title card news Title card news Title card news Title card '
-						}
+						title={'Title card news Title card news Title card news  '}
+						description={'Title card news Title card news Title card news Title card news Title card news Title card news  '}
 						image={card_poster}
 					/>
 					<CardNewsSub
-						title={
-							'Title card news Title card news Title card news Title card news Title card news Title card Title card news Title card news Title card news Title card news Title card news Title card'
-						}
+						title={'Title card news Title card news Title card news  '}
+						description={'Title card news Title card news Title card news Title card news Title card news Title card news  '}
 						image={card_poster}
 					/>
+
 				</div>
 			</div>
 		</div>

@@ -18,19 +18,13 @@ const CardProduct = ({title,description,image,price}) => {
 					<small className="text-slate-400 mx-2 text-sm">By KTS.Tu Tin</small>
 
 					<div className=" flex gap-3 p-3">
-						<button className="  w-1/2  text-slate-900 border border-gray-700  p-1 px-3   rounded-sm  ">
+						<a className="  w-1/2  text-blue-900 text-xl  font-semibold   p-1 px-3 pl-0  rounded-sm  ">
 							10.000 đ
-						</button>
-						<button className=" border w-1/2 border-green-500  bg-green-500 text-white p-1 px-3   rounded-sm  ">
+						</a>
+						<button className=" border w-1/2 border-green-500  bg-blue-500 text-white p-1 px-3   rounded-sm  ">
 							Chi tiết
 						</button>
-						{/* <button className="btn-animation w-1/2    ">
-								<a
-									href="#"
-									className="border w-full border-green-500 p-2 px-3 text-green-600">
-									<span>Chi tiết</span>
-								</a>
-							</button> */}
+					
 					</div>
 				</div>
 			</div>
